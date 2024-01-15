@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900& display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'poppins',sans-serif;
+   
+   
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body {
+    background-image: linear-gradient(rgba(1, 238, 255, 0.315), rgba(0, 0, 0, 0.308));
+    color: rgb(7, 0, 0); 
+    overflow: hidden;
+}
+.home {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+
+}
+/* Header */
+.logo {
+    font-size: 2.5rem;
+    color: blue;
+    font-weight: 600;
+    cursor: default;
+    float: left;
+    text-align: center;
+    padding-right: 35%;
+    overflow: hidden;
+  
+    
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 2rem 9%;
+    align-items: center;
+    z-index: 100%;
+    background-image: linear-gradient(rgba(1, 238, 255, 0.315), rgba(0, 0, 0, 0.308));
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    
+}
+
+nav a {
+    background: linear-gradient(to bottom, #02b7fff1, #0044ff);
+    margin: 3px;
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    padding: 8px 20px;
+    outline: none;
+    border-radius: 30px 30px 30px 30px ;
+    box-shadow: 5px 10px 30px 5px  rgba(131,146,255,0.5);
+    border: 1px solid #7984E8;
+   -webkit-text-stroke-width: 0.5px;
+   transition: transform 0.2s ease-in-out;
+   
+   
+
+   
+}
+nav a:hover {
+    box-shadow: 2px 2px 2px 2px  rgba(5, 62, 250, 0.096);
+    transition: all 0.1s ease-in 0.5;
+    outline: none;
+    border-radius: 30px 30px 30px 30px ;
+    color: #75f085;
+    transform: scale(1.1);
+}
+
+
+
+.icon {
+    display: none;
+    float: right;
+    cursor: pointer;
+}
+
+.icon i {
+    font-size: 1.5em;
+    color: white;
+    margin: 15px;
+    transition: transform 0.3s;
+}
+/* header end */
+
+/* home section design */
+.construction {
+    color: red;
+    font-weight: 700;
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-img img {
+    width: 36vw;
+}
+.home-content h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.home-content h3 span {
+    color: rgb(255, 0, 179);
+}
+.home-content h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #1808f8;
+}
+.home-content p {
+    font-size: 1.6rem; 
+    margin-bottom: 20px;
+}
+.btn
+{
+    background: linear-gradient(to bottom, #02b7fff1, #0044ff);
+    padding: 8px 20px;
+    outline: none;
+    border-radius: 0px 30px 0px 30px ;
+    box-shadow: 5px 10px 30px 5px  rgba(131,146,255,0.5);
+    border: 1px solid #7984E8;
+    color: #fff;
+   -webkit-text-stroke-width: 0.5px;
+   transition: transform 0.2s ease-in-out;
+}
+.btn:hover
+{
+    box-shadow: 5px 10px 30px 5px  rgb(5, 63, 250);
+    transition: all 0.1s ease-in 0.5;
+    outline: none;
+    border-radius: 0px 30px 0px 30px ;
+
+}
+
+/* services */
+
+.servi {
+    background-color: #0044ff09;
+    height: 560px;
+    width: 100%;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servi h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    background-color: #ffffff;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.sbox {
+    height: 160px;
+    width: 30%;
+    background: #f7f7f7;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px  rgba(10, 0, 0, 0.082);
+    text-align: center;
+    float: left;
+    padding: 20px;
+    margin: 1.6%;
+    transition: transform 0.2s ease-in-out;
+    animation-name: srin;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+   
+}
+@keyframes srin {
+    from {
+        scale: 0;
+        margin-top: 500px;
+    }
+    to {
+
+    }
+}
+
+
+
+.sbox:hover {
+    transform: scale(1.04);
+    box-shadow: 5px 5px rgba(192, 206, 255, 0.432);
+    
+}
+
+.service-icon {
+    font-size: 30px;
+}
+
+
+
+/* services end */
+
+/* section3 start */
+.section3 {
+
+ height: 600px;
+ background-color: #00ff9528;
+ padding-top: 100px;
+
+}
+.about-container {
+    background: linear-gradient(45deg, #3498db, #f159dd);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-container h1 {
+  color: #18f3c4;
+}
+
+.about-container p {
+  line-height: 1.6;
+}
+
+
+
+.aboutbtn{
+  height: 20px;
+  width: 100px;
+  padding: 5px;
+  background-color: #18f3c4;
+  margin-left: 38%;
+  text-align: center;
+  border-radius: 30px 30px ;
+  box-shadow: 5px 10px 30px 5px  rgba(255, 99, 9, 0.5);
+  border: 1px solid #7984E8;
+}
+.aboutbtn:hover {
+    box-shadow: 5px 10px 30px 5px  rgb(5, 63, 250);
+    transition: all 0.1s ease-in 0.5;
+    outline: none;
+    border-radius: 30px 30px 30px 30px ;
+    scale: 1.02;
+}
+
+.aboutbtn a {
+    text-decoration: none;
+    color: aliceblue;
+
+
+}
+/* section3 end */
+
+/* section4 start */
+
+/* section4 end */
+
+
+
+
+/* Footer */
+footer
+{
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to bottom, #63cdf752, #0044ff1f); 
+}
+.text1
+{
+    width: 50%;
+    margin-left: 7%;
+    margin-top: 2rem;
+}
+.text1 p
+{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+
+.social-media
+{
+    width: 50%;
+    padding: 2rem;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    word-spacing: 10px;
+    
+}
+
+/* Responsive 1000px */
+@media screen and (max-width: 1000px) {
+    .logo {   
+        padding-right: 8%;
+      }
+      nav a {
+        padding: 6px 12px;
+      }
+
+/* Responsive service */
+.servi {
+    height: 550px;
+    width: 100%;
+    padding: 20px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.sbox {
+    font-size: 0.7rem;
+    margin-top: 20px;
+}
+.sbox a {
+    font-size: 1.8rem;
+}
+.sbox p {
+    font-size: 0.8rem;
+}
+
+
+}
+
+
+
+
+/* Responsive 600px */
+@media screen and (max-width: 600px) {
+    nav a:not(:first-child) {
+        display: none;
+    }
+
+    .responsive {
+        position: fixed;
+        display: none;
+        margin-top: 50px;
+        margin-left: 27%;
+        width: 200px;
+        height: 140px;
+        border-radius: 0px 0px 10px 10px ;
+        backdrop-filter: blur(5px);
+        background-image: linear-gradient(rgba(1, 238, 255, 0.315), rgba(3, 21, 180, 0.158));
+        z-index: 1;
+       animation-name: ss;
+       animation-duration: .4s;
+       animation-iteration-count:1;
+       
+    }
+    
+    @keyframes ss {
+      from {
+        height: 0px;
+      }
+      to {
+        height: 140px;
+      }
+    }
+    
+    .responsive a {
+        display: block;
+        background: linear-gradient(to bottom, #02b7fff1, #0044ff);
+        margin:  5px 50px;
+        color: white;
+        text-align: center;
+        transition: background-color 0.3s;
+        padding: 2px 20px;
+        border-radius: 30px 30px 30px 30px ;
+        box-shadow: 5px 10px 30px 5px  rgba(131,146,255,0.5);
+        animation-name: me;
+        animation-duration: .4s;
+        animation-iteration-count:1;
+        transition: transform 0.2s ease-in-out;
+      
+       
+    }
+    @keyframes me {
+        from {
+          height: 0px;
+          scale: 0;
+        }
+        to {
+          height: 20px;
+          
+        }
+      }
+      
+    
+   
+
+    .responsive a:hover{
+        box-shadow: 2px 2px 2px 2px  rgba(5, 62, 250, 0.253);
+        outline: none;
+        border-radius: 30px 30px 30px 30px ;
+        color: #00eeff;
+        transform: scale(1.1);
+    }
+   
+
+    .icon {
+        display: block;
+        margin-top: -12px;
+       
+
+    }
+   
+    .icon i.fa-times {
+        transform: rotate(-180deg);
+    }
+
+    .logo {
+        font-size: 2.1rem;
+        padding-right: 20%;
+        
+    }
+
+    nav {
+        height: 60px;
+        margin-top: -10px;
+
+    }
+
+
+    .home-img {
+        width: 100%;
+        margin-top: -470px;
+        margin-left: 38%;
+        scale: 2;
+        
+    }
+    .home-content {
+        position: absolute;
+        margin-top: 200px;
+        text-align: center;
+
+    }
+
+    /* service */
+.servi {
+        height: 1300px;
+        width: 100%;
+        padding-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+}
+
+.sbox {
+    box-shadow: 4px 4px 4px 4px  rgba(5, 62, 250, 0.164);
+    float: none;
+    overflow: hidden;
+    width: 97%;
+    
+}
+.sbox {
+    font-size: 1.2rem;
+}
+.sbox a {
+    font-size: 2.5rem;
+}
+.sbox p {
+    font-size: 1.3rem;
+}
+
+   
+}
